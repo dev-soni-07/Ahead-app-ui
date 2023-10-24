@@ -1,8 +1,6 @@
+# Frontend UI Intern at Density Exchange 
 
-# Dribble design --> website
-
-This is a dribble design, converted to a Next js 13 app.
-## Run Locally
+# Run Locally
 
 Clone the project
 
@@ -31,5 +29,5 @@ Start the server
 
 ## Demo
 
-Link to project : https://ahead-app-ui.vercel.app/
+Link to project : https://ahead-app-ui.netlify.app/
 
