@@ -24,7 +24,7 @@ const EverWonder = () => {
         </h1>
       </motion.div>
       <div className="mt-8 flex justify-center relative">
-        <div className="absolute top-[1.5rem] w-[780px] text-transparent border-t border-yellow-700 h-4 border-dashed">
+        <div className="absolute top-[1.5rem] w-[600px] text-transparent border-t border-yellow-700 h-4 border-dashed">
           
         </div>
         <div className="flex justify-evenly w-[70rem] z-[10]">

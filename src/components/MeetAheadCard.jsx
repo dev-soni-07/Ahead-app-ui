@@ -13,15 +13,15 @@ const MeetAheadCard = () => {
         <div className="rounded-xl basis-1/2 px-7">
           <div className="flex flex-col mt-20 gap-3">
             <div>
-              <p className="text-md text-semibold text-left text-black">Built out of frustration</p>
+              <p className="text-md font-semibold text-left text-black">Built out of frustration</p>
             </div>
             <div>
-              <p className="text-4xl font-bold">Meet the ahead app</p>
+              <p className="text-5xl font-bold">Meet the ahead app</p>
             </div>
           </div>
         </div>
-        <div className="basis-1/2 flex items-center">
-          <div className="flex flex-col gap-12 w-4/5  items-center">
+        <div className="mt-5 basis-1/2 flex items-center">
+          <div className="flex flex-col gap-4 w-4/5  items-center">
             <div>
               <p className="text-lg">
                 A personalized pocket coach that provide
