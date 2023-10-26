@@ -29,9 +29,7 @@ Start the server
 
 ## Others
 
-Greetings of the day,
-
-I hope this message finds you well. I wanted to inform you that I have successfully completed the Frontend UI intern task as per the provided instructions. I have deployed the project on both Vercel and Netlify for your convenience.
+I have successfully completed the Frontend UI intern task as per the provided instructions. I have deployed the project on both Vercel and Netlify for your convenience.
 
 Here are the links for your reference:
 
