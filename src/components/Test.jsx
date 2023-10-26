@@ -1,17 +1,19 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+
 const Test = () => {
   return (
     <section className="mt-20 flex flex-col gap-3 text-center p-8">
       <p className="text-center font-semibold">We take privacy seriously</p>
       <p className="font-bold text-3xl">Before you get started</p>
       <p className="text-xl font-normal">
-      &quot;We won't share your answers with anyone (and won't ever tell <br></br> you which friends said what about you)&quot;
+        &quot;We won&apos;t share your answers with anyone (and won&apos;t ever tell <br></br> you which friends said what about you)&quot;
       </p>
       <div className="flex flex-row gap-2 items-center justify-center">
-        <p className="font-semibold">with Love, <a href="https://www.linkedin.com/in/dev-soni-448551216/"><b>DEV SONI</b></a></p>
-       
+        <p className="font-semibold">
+          with Love, <a href="https://www.linkedin.com/in/dev-soni-448551216/"><b>DEV SONI</b></a>
+        </p>
       </div>
       <motion.div
         initial="hidden"
@@ -33,7 +35,7 @@ const Test = () => {
             hidden: { scale: 0.5, opacity: 0 },
             visible: {
               opacity: 1,
-              scale: [0,0.25,0.5,0.8,1.01,1],
+              scale: [0, 0.25, 0.5, 0.8, 1.01, 1],
               transition: { ease: "easeInOut", duration: 1 },
             },
           }}
