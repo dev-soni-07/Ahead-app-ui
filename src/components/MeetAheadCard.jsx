@@ -10,13 +10,13 @@ const MeetAheadCard = () => {
         style={{ height: "450px" }}
         className="bg-bgPeach overflow-hidden relative flex rounded-lg"
       >
-        <div className=" basis-1/2 px-7">
+        <div className="rounded-xl basis-1/2 px-7">
           <div className="flex flex-col mt-20 gap-3">
             <div>
-              <p className="text-md text-left">Built Out of Frustration</p>
+              <p className="text-md text-semibold text-left text-black">Built out of frustration</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">Meet the ahead app</p>
+              <p className="text-4xl font-bold">Meet the ahead app</p>
             </div>
           </div>
         </div>
@@ -72,14 +72,14 @@ const MeetAheadCard = () => {
             visible: {
               x: [0, 10],
               y: [55, -25],
-              rotate: 25,
+              rotate: 5,
             },
             hidden: { y: 55 },
           }}
           animate={{
             x: [0, 10],
             y: [55, -5],
-            rotate: 25,
+            rotate: 5,
           }}
           transition={{
             type: "tween",
@@ -88,7 +88,7 @@ const MeetAheadCard = () => {
             delay:0.6
           }}
           className="h-28 w-24 absolute"
-          style={{ right: "60%", top: "20%", transform: "translate(50%,50%)" }}
+          style={{ right: "60%", bottom: "20%", transform: "translate(50%,50%)" }}
         >
           <Image height={100} width={100} src="/leaf.png" alt="" />
         </motion.div>
@@ -147,7 +147,7 @@ const MeetAheadCard = () => {
           ease: "linear",
           duration: 2, 
         }}
-        style={{ right: "280px", top: "-20px" }}
+        style={{ right: "180px", top: "-20px" }}
         className="h-11 w-11 absolute "
       >
         <Image height={100} width={100}src="/flower.png" alt="" />

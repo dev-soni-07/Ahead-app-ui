@@ -9,8 +9,8 @@ const MasterLife = () => {
             <div style={{ height: "550px" }} className='bg-bgBlue relative rounded-3xl flex flex-col md:flex-row overflow-hidden'>
                 <div className=' flex basis-1/2 items-center justify-center '>
                     <div className='pl-20  flex items-center justify-start flex-col'>
-                        <div className='w-full'><p className='text-lg'>Ahead app</p></div>
-                        <div><p className='mt-5  text-5xl font-bold'>Master Your life by mastering emotions</p></div>
+                        <div className='w-full'><p className='text-lg font-semibold'>Ahead app</p></div>
+                        <div><p className='mt-5  text-6xl font-bold'>Master your life by mastering emotions</p></div>
                         <div className="flex gap-7 items-center  w-full">
                             <Image
                                 width={150}
@@ -33,7 +33,7 @@ const MasterLife = () => {
                                         );
                                     })}
                                 </div>
-                                <p className="">100+ AppStore reviews</p>
+                                <p className="text-xsE">100+ AppStore reviews</p>
                             </div>
                         </div>
                     </div>

@@ -4,22 +4,22 @@ import { motion } from "framer-motion";
 
 const vacancies = [
   {
-    jobTitle: "Senior Full Stack Engineer",
+    jobTitle: "Senior Full-Stack Engineer",
     position: "Full-time position",
     location: "Berlin or Remote",
-    pay: "Euro 65-85, 1.5%-2.5% Equity",
+    pay: "€65-85k, 0.5%-1.5% equity share options",
   },
   {
     jobTitle: "Senior Designer",
     position: "Full-time position",
     location: "Berlin or Remote",
-    pay: "Euro 45-85, 3.5%-7.5% Equity",
+    pay: "€40-55k, 0.25%-0.50% equity share options",
   },
   {
     jobTitle: "Superstar Intern",
     position: "Full-time position",
     location: "Berlin or Remote",
-    pay: "Euro 45-85, 8.5%-2.5% Equity",
+    pay: "€20-24k, 0.5%-1.50% equity share options",
   },
 ];
 
@@ -44,7 +44,7 @@ const OpenVacancies = () => {
           overflow: "hidden", // Hide overflowing text while sliding
         }}
       >
-        <h1 className="text-5xl font-bold">Open Vacancies</h1>
+        <h1 className="text-5xl font-bold">Open vacancies</h1>
       </motion.div>
       <div className="mt-12 grid grid-cols-3 justify-between gap-8">
         {vacancies.map((vac, index) => {

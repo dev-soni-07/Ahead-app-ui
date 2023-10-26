@@ -37,11 +37,11 @@ const SelfImprovement = () => {
             hidden: { opacity: 0, scale: 0, x: "-50%" },
           }}
         >
-          <div className="text-xl font-bold text-black">
+          <div className="text-md font-semibold text-black">
             Wrong with self improvement & how we&apos;re fixing it.
           </div>
-          <div className="text-6xl pb-3 font-bold text-black">
-            Self Improvement. Ugh.
+          <div className="text-5xl pb-3 font-bold text-black">
+            Self-improvement. Ugh.
           </div>
         </motion.div>
         <motion.div
@@ -53,9 +53,9 @@ const SelfImprovement = () => {
             visible: {
               opacity: 1,
               scale: 1,
-              x: [0, -100, -300, -450, -500],
+              x: [0, -100, -300, -450, -450],
               y: [35, 20, 10, 0, -10],
-              rotate: [-60, -45, -35,-35,-35, -35, -15],
+              rotate: [-60, -45, -35,-35,-35, -35, -2],
             },
             hidden: { opacity: 0, scale: 0},
           }}
@@ -80,7 +80,7 @@ const SelfImprovement = () => {
                 <motion.div
                  className=" max-w-[40rem] relative align-top pl-8">
                   <div style={{left:"-12px"}} className="absolute">🟣</div>
-                  <p className="text-xl font-bold">It&apos;s not easy as 1-2-3</p>
+                  <p className="text-xl font-bold">It&apos;s not easy as 1-2-3.</p>
                   <p className="mt-3">
                     The journey may be long but our sessions are quick. We get
                     to the point and tell you what you want to know (and nothing

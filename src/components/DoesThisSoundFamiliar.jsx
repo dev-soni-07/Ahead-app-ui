@@ -42,7 +42,7 @@ const DoesThisSoundsFamiliar = () => {
             hidden: { opacity: 0, scale: 0, x: "-50%" },
           }}
         >
-          <h1 className="text-6xl font-bold px-4 mb-5">
+          <h1 className="text-5xl font-bold px-4 mb-5">
             Does this sound familiar...
           </h1>
         </motion.div>
@@ -55,9 +55,9 @@ const DoesThisSoundsFamiliar = () => {
             visible: {
               opacity: 1,
               scale: 1,
-              x: [0, -100, -300, -450, -500],
+              x: [0, -100, -300, -450, -390],
               y: [35, 20, 10, 0, -10],
-              rotate: [-60, -45, -35,-35,-35, -35, -15],
+              rotate: [-20, -45, -35,-35,-35, -35, -5],
             },
             hidden: { opacity: 0, scale: 0},
           }}
@@ -70,7 +70,7 @@ const DoesThisSoundsFamiliar = () => {
         ref={boxContainerRef}
       >
         <div className="rounded-xl bg-purple-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-emoji.png" />
+        <span class="text-3xl">😠</span>
           <h3 className="font-bold text-lg">You argue with a colleague</h3>
           <p className="text-gray-700">
             You get angry and defensive,instead of staying open and working
@@ -79,7 +79,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-blue-300 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300  ease-in-out">
-          <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">😳</span>
           <h3 className="font-bold text-lg text-white">
             You get a prmotion at work
           </h3>
@@ -90,7 +90,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-yellow-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300  ease-in-out">
-        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">🤨</span>
           <h3 className="font-bold text-lg ">You attend a class reunion</h3>
           <p className="text-gray-700">
             You compare yourelf with your peers your self judgement more
@@ -99,7 +99,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className=" rounded-xl bg-violet-600 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">😒</span>
           <h3 className="font-bold text-lg ">
             You are at a lively dinner party
           </h3>
@@ -110,7 +110,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-blue-100 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">😬</span>
           <h3 className="font-bold text-lg ">
             You hit dead end in a negotiation
           </h3>
@@ -121,7 +121,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-purple-200 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">😠</span>
           <h3 className="font-bold text-lg">You argue with a colleague</h3>
           <p className="text-gray-700">
             You get angry and defensive,instead of staying open and working
@@ -129,7 +129,7 @@ const DoesThisSoundsFamiliar = () => {
           </p>
         </div>
         <div className="rounded-xl bg-violet-600 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">😠</span>
           <h3 className="font-bold text-lg ">
             You are at a lively dinner party
           </h3>
@@ -140,7 +140,7 @@ const DoesThisSoundsFamiliar = () => {
         </div>
 
         <div className="rounded-xl bg-blue-100 min-w-[350px]  p-6 flex flex-col gap-4 hover:scale-110 hover:-rotate-12 hover:duration-300 ease-in-out">
-        <Image width={70} height={70} alt="" src="/angry-emoji.svg" />
+        <span class="text-3xl">😠</span>
           <h3 className="font-bold text-lg ">
             You hit dead end in a negotiation
           </h3>

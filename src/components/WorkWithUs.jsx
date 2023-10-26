@@ -48,10 +48,10 @@ const WorkWithUs = () => {
                   hidden: { opacity: 0, scale: 0.5, rotate: 0 },
                 }}
               >
-                <Image width={60} height={60} alt="" src="/ghost.png" />
+                <Image width={30} height={30} alt="" src="/ghost.png" />
               </motion.div>
               <div className="flex flex-col gap-3 p-4">
-                <h2 className="font-bold">About</h2>
+                <h2 className="text-xl font-bold">About</h2>
                 <p className="font-normal">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus fugit ipsum voluptate deserunt, non velit a
@@ -61,7 +61,7 @@ const WorkWithUs = () => {
               </div>
 
               <div className="flex flex-col gap-2 pt-8  p-4 rounded-2xl  mt-8 bg-orange-50">
-                <h2 className="font-bold">Product</h2>
+                <h2 className="text-xl font-bold">Product</h2>
                 <p className="font-normal">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Dolore temporibus dignissimos, laboriosam corporis deleniti

@@ -16,10 +16,10 @@ const EverWonder = () => {
         }}
       >
         <h3 className="text-center text-gray-600 text-lg font-semibold">
-          Let your friends, family, and co-worker (anonymously) rate your social
-          skills
+          Let your friends, family, and co-worker (Anonymonosly) rate your social
+          skills.
         </h3>
-        <h1 className="text-[2.4rem] font-bold text-center mt-4">
+        <h1 className="text-[2.6rem] font-bold text-center mt-4">
           Ever wondered what others think of you?
         </h1>
       </motion.div>
@@ -34,7 +34,7 @@ const EverWonder = () => {
                 <Image width={50} height={50} alt="" src="/badge.png" />
               </div>
             </div>
-            <div className="text-center">
+            <div className="text-center font-semibold">
               Answer questions on <br />
               your skill.
             </div>
@@ -46,8 +46,8 @@ const EverWonder = () => {
                 <Image width={50} height={50} alt="" src="/badge.png" />
               </div>
             </div>
-            <div className="text-center">
-              Let other anonymously answer <br />
+            <div className="text-center font-semibold">
+              Let other Anonymonosly answer <br />
               question about you.
             </div>
           </div>
@@ -58,7 +58,7 @@ const EverWonder = () => {
                 <Image width={50} height={50} alt="" src="/badge.png" />
               </div>
             </div>
-            <div className="text-center">
+            <div className="text-center font-semibold">
               Find you where others and <br />
               you find the view same ways.
             </div>
@@ -68,7 +68,7 @@ const EverWonder = () => {
 
 
       <div className="flex justify-center">
-        <div className="mt-16 shadow bg-white rounded-xl w-[50rem] p-6 py-24 relative">
+        <div className="mt-16 shadow bg-white rounded-xl w-[40rem] p-6 py-24 relative">
           <div className="flex justify-between ">
             <div className="h-4 w-4 rounded-full bg-violet-600 z-10 relative">
               <motion.div
@@ -86,7 +86,7 @@ const EverWonder = () => {
                   hidden: { opacity: 0, scale: 0.5 },
                 }}
               >
-                <div className="absolute text-white p-2 bg-violet-600 rounded top-[-3rem] left-[-3rem]">
+                <div className="absolute text-white p-2 bg-violet-600 rounded-[0.6rem] top-[-3rem] left-[-1rem]">
                   You
                 </div>
               </motion.div>
@@ -102,12 +102,12 @@ const EverWonder = () => {
                   hidden: { opacity: 0.5, scale: 0.5 },
                 }}
               >
-                <div className="absolute whitespace-nowrap text-white p-3 bg-blue-400 rounded top-[2rem] left-[82%]">
-                  Anonymous 1
+                <div className="absolute whitespace-nowrap text-white p-3 bg-blue-400 rounded-[0.6rem] top-[2rem] left-[42%]">
+                  Anonymonos 1
                 </div>
               </motion.div>
             </div>
-            <div className="h-4 w-4 rounded-full bg-orange-400 z-10 relative">
+            <div className="h-4 w-4 rounded-full bg-yellow-400 z-10 relative">
               <motion.div
                 initial="hidden"
                 whileInView="visible"
@@ -118,8 +118,8 @@ const EverWonder = () => {
                   hidden: { opacity: 0.5, scale: 0.5 },
                 }}
               >
-                <div className="absolute  whitespace-nowrap  text-white p-2 bg-orange-400 rounded top-[-3rem] left-[0.5rem]">
-                  Anonymous 2
+                <div className="absolute  whitespace-nowrap  text-white p-2 bg-yellow-400 rounded-[0.6rem] top-[-3rem] left-[0.2rem]">
+                  Anonymonos 2
                 </div>
               </motion.div>
             </div>
@@ -134,13 +134,13 @@ const EverWonder = () => {
                   hidden: { opacity: 0.5, scale: 0.5 },
                 }}
               >
-                <div className="absolute  whitespace-nowrap   text-white p-3 bg-green-400 rounded  top-[2rem] left-[82%]">
-                  Anonymous 3
+                <div className="absolute  whitespace-nowrap   text-white p-3 bg-green-400 rounded-[0.6rem]  top-[2rem] left-[52%]">
+                  Anonymonos 3
                 </div>
               </motion.div>
             </div>
           </div>
-          <div className="border-t border-yellow-700 h-1 absolute top-[50%]  w-[745px]"></div>
+          <div className="border-t border-yellow-700 h-1 absolute top-[50%]  w-[590px]"></div>
         </div>
       </div>
     </section>
